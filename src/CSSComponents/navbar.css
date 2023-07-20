@@ -1,0 +1,29 @@
+.logo{
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+}
+.panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 34px;
+    background-color: #f9e2ce;
+}
+
+.menu{
+    width: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+
+@media (max-width: 900px) {
+    .panel{
+        font-size: 25px;
+    }
+    .menu{
+        width: 50px;
+    }
+}
