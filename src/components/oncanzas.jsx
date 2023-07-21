@@ -7,8 +7,8 @@ const OnCanzas = ({canzas}) => {
         <div className='onCanzas'>
         <img src={cross} alt='ЗАКРЫТЬ' width={50} onClick={canzas}/>
         <div className='CanzNav'>
-        <Link to='/news' className='sfaw'>Новости</Link>
-        <Link to='/katalog'className='sfaw'>Каталог</Link>
+        <Link to='/news' onClick={canzas} className='sfaw'>Новости</Link>
+        <Link to='/katalog'onClick={canzas} className='sfaw'>Каталог</Link>
         <a className='sfaw' onClick={canzas} href='#kontakts'>
             Контакты
             </a>

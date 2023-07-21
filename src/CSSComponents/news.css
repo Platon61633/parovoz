@@ -45,3 +45,9 @@
     font-size: 27px;
     padding: 5px;
 }
+
+@media (max-width: 900px) {
+  .post{
+    width: 70%;
+  }
+}
