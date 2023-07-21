@@ -30,8 +30,10 @@ footer{
     .item img{
         width: 40px;
     }
-
-    #kontakts{
+  #kontakts{
+        font-size: 17px;
+    }
+    .shops{
         font-size: 17px;
     }
 }
