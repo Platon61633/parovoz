@@ -1,3 +1,20 @@
+@keyframes canvas-animation{
+    from{
+        width: 10%;
+    }
+    /* 30% {
+        width: 20 ;
+        background-color: aqua;
+    }
+    60% {
+        width: 30%;
+        background-color: blue;
+    } */
+    to{
+        width: 40%;
+    }
+}
+
 .canzas{
     display: flex;
     justify-content: space-around;
@@ -19,8 +36,9 @@
     z-index: 4;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     width: 40%;
+    animation: canvas-animation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1 normal forwards;
 }
 
 @media (max-width: 900px) {
