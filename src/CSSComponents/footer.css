@@ -15,6 +15,7 @@ footer{
     filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
     vertical-align: middle;
     margin-right: 5px;
+    width: 80px;
 }
 .shops{
     margin-top: 15px;
@@ -26,7 +27,11 @@ footer{
 }
 
 @media (max-width: 900px){
+    .item img{
+        width: 40px;
+    }
+
     #kontakts{
-        font-size: 10px;
+        font-size: 17px;
     }
 }
