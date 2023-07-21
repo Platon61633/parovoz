@@ -12,7 +12,7 @@ const News = () => {
     {im: close, text: "тяжкий груз"}
     ])
     return(
-        <div>
+        <div className='posts'>
             {Posts.map(
                 e => 
                     <div className='post'>
